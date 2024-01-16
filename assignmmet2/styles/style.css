@@ -207,6 +207,10 @@ margin-left: 50px;
   gap: 20px;
  }
 
- .footer-icon {
-  
+
+
+ @media screen and (min-width:600px) {
+  .header-section {
+    width: 600px;
+  }
  }
