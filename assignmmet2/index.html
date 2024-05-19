@@ -1,132 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel Website</title>
-  <link rel="stylesheet" href="styles/style.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Partner</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/2f4548b852.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
-     <nav class="header-section">
-      <div class="nav-container">
-        <img src="./Images/Group 40071 (2).png" alt="">
-        <p> <span class="special">Hero</span> <span class="special2">Trave</span></p>
-      </div>
-      <div class="items-container">
-        <a class="item-content" href="">Home</a>
-        <a href="">Packages</a>
-        <a href="">Testimonial</a>
-        <a href="">Blog</a>
-        <a href="">Contact</a>
-      </div>
-     </nav>
+
+    <!-- header section start -->
+
+    <header class="container">
+
+        <nav id="nav">
+            <div class="nav-logo">
+                <img src="images/Group 40071 (2).png">
+                <h3>Tour <span class="partner-span">Partner</span></h3>
+            </div>
+            <div class="nav-list">
+                <ul class="nav-items">
+                    <li><a href="" class="nav-item-home">Home</a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <div class="nav-bar-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner">
+            <h1>Explore Your Travel</h1>
+            <p>Embark on a journey of discovery with Explore Your Travel. Unveil new horizons and create lasting memories. <br>Start exploring today.</p>
+            <div class="banner-search-container">
+                <input type="text" placeholder="Where go">
+                <div class="input-box">
+                    <input type="text" placeholder="When">
+                    <div class="down-arrow">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Select Type">
+                    <div class="down-arrow">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <button class="btn"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+            </div>
+        </div>
+
     </header>
 
+    <!-- header section end -->
 
-    <main>
-       <section class="banner-section">
-        <div class="banner-img-section">
-           <h1  class="banner-heading">Explore Your Travel</h1>
-           <p  class="bamer-para">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+    <!-- main section start -->
 
-           <div class="input">
-            <form class="form-items">
-              <input  placeholder="Where go" type="text">
-            </form>
-    
-            <form>
-              <input placeholder="When" type="text">
-            </form>
-            <form>
-              <input placeholder="Select Type" type="text">
-            </form>
-            <button class="button-pr">Find Now</button>
-          </div>
-        </div>
-       </section>
+    <main class="container">
 
-
-        <section class="features">
-          <div class="features-content">
-            <h1 class="section-title">Our Popular Tours</h1>
-            <p class="text-para">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-            <div class="card">
-              <p class="text-para">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</p>
+        <!-- popular tours section start -->
+        <section id="popular-tours">
+            <div class="popular-tours-content">
+                <h1>Our Popular Tours</h1>
+                <p>Discover our acclaimed tours—crafted for unforgettable experiences. Immerse in culture, adventure, and scenic wonders. Your extraordinary journey begins here.</p>
+                <ul>
+                    <li><p>Explore our top-rated tours, blending culture and adventure for extraordinary experiences. Join us on a journey beyond expectations.</p></li>
+                    <li><p>Unveil our most sought-after tours, meticulously designed for cultural immersion and thrilling adventures. Elevate your travel with unforgettable experiences.</p></li>
+                    <li><p>Embark on our renowned tours, a harmonious blend of culture and excitement. Dive into extraordinary destinations, creating memories that last a lifetime.</p></li>
+                </ul>
+                <p>Discover our acclaimed tours, carefully curated for cultural richness and thrilling adventures. Immerse yourself in extraordinary destinations, guided by expert insights. Elevate your travel experience with unforgettable moments that last a lifetime.</p>
+                <button class="btn">Read More</button>
             </div>
-           <div class="card"> <p class="text-para">dipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</p>
-          </div>
-           <div class="card">
-            <p class="text-para"> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</p>
-           </div>
-           <div class="card">
-            <p class="text-para">Amet consectetur. Vulputate commodo felis molestie risus 
-              ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
-           </div>
-              <button class="button-pr">Read More</button>
-          </div>
-
-          <div class="features-img">
-            <img src="./Images/Rectangle 4.png" alt="">
-          </div>
+            <div class="popular-tours-img">
+                <img src="images/Rectangle 4.png">
+            </div>
         </section>
+        <!-- popular tours section end -->
 
-        <section class="gallery-section">
-          <h1 style="text-align: center; margin-top: 30px">Choose Your Destination</h1>
-          <p style="text-align: center;margin-top: 20;">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-          <div class="gallery-container">
-            <div class="single-gallery">
-              <img src="./Images/Rectangle 5.png" alt="">
+        <!-- destination section start -->
+        <section id="destination">
+            <div class="destination-content">
+                <h1>Choose Your Destination</h1>
+                <p>Select your dream destination with our personalized tour plans. Craft your ideal itinerary for <br>a seamless and unforgettable travel experience.</p>
             </div>
-
-            <div class="gallery-container">
-              <div class="single-gallery">
-                <img src="./Images/Rectangle 8.png" alt="">
-              </div>
-
-                <div class="single-gallery">
-                  <img src="./Images/Rectangle 6.png" alt="">
-                </div>
-
-                
-                  <div class="single-gallery">
-                    <img src="./Images/Rectangle 7.png" alt="">
-                  </div>
-
-                    <div class="single-gallery">
-                      <img src="./Images/Rectangle 9.png" alt="">
+            <div class="destination-img-container">
+                <div class="destination-img1 destination-img">
+                    <img src="images/Rectangle 5.png">
+                    <div class="destination-img-text">
+                        <h3>Maldives</h3>
                     </div>
-
-                      <div class="single-gallery">
-                        <img src="./Images/Rectangle 11.png" alt="">
-                      </div>
-
-                      <div class="single-gallery">
-                        <img src="./Images/Rectangle 10.png" alt="">
-                      </div>
-          </div>
+                </div>
+                <div class="destination-img2 destination-img">
+                    <img src="images/Rectangle 8.png">
+                    <div class="destination-img-text">
+                        <h3>Indonesia</h3>
+                    </div>
+                </div>
+                <div class="destination-img3 destination-img">
+                    <img src="images/Rectangle 6.png">
+                    <div class="destination-img-text">
+                        <h3>Srilanka</h3>
+                    </div>
+                </div>
+                <div class="destination-img4 destination-img">
+                    <img src="images/Rectangle 7.png">
+                    <div class="destination-img-text">
+                        <h3>North America</h3>
+                    </div>
+                </div>
+                <div class="destination-img5 destination-img">
+                    <img src="images/Rectangle 9.png">
+                    <div class="destination-img-text">
+                        <h3>Kashmir</h3>
+                    </div>
+                </div>
+                <div class="destination-img6 destination-img">
+                    <img src="images/Rectangle 11.png">
+                    <div class="destination-img-text">
+                        <h3>Bangladesh</h3>
+                    </div>
+                </div>
+                <div class="destination-img7 destination-img">
+                    <img src="images/Rectangle 10.png">
+                    <div class="destination-img-text">
+                        <h3>Bandarban</h3>
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- destination section end -->
+
+        <!-- choose us section start -->
+        <section id="choose-us">
+            <div class="choose-us-content">
+                <h1>Why Choose Us</h1>
+                <p>Choose us for seamless travel. Expertly curated experiences, exceptional service, and <br>a commitment to your satisfaction make us the preferred choice.</p>
+            </div>
+            <div class="choose-us-cards">
+                <div class="row1">
+                    <div class="card pink-card">
+                        <img src="images/icons8-hotel-70.png">
+                        <h3>Handpicked Hotels</h3>
+                        <p>Indulge in luxury with our handpicked hotels. Impeccable service and distinctive charm await for an unforgettable stay tailored to you.</p>
+                    </div>
+                    <div class="card green-card">
+                        <img src="images/icons8-map-70.png">
+                        <h3>World Class Service</h3>
+                        <p>Experience world-class service that transcends expectations. Elevate your journey with impeccable hospitality, attention to detail, and unparalleled excellence</p>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="card pink-card">
+                        <img src="images/icons8-price-tag-70.png">
+                        <h3>Best Price Guarantee</h3>
+                        <p>Shop confidently with our Best Price Guarantee. Unlock unbeatable deals and savings, ensuring you get the most value for your travel budget</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- choose us section end -->
+
+        <!-- deal and discount section start -->
+
+        <section id="deal-discount">
+            <div class="deal-discount-content">
+                <h1>Deals & Discounts</h1>
+                <p>Unlock unbeatable savings with our exclusive Deals & Discounts. Elevate your travel experience without <br>breaking the bank. Limited-time offers await!</p>
+            </div>
+            <div class="deal-discount-card-container">
+                <div class="deal-discount-card offer-card1">
+                    <div class="offer-card">
+                        <p class="span-part">
+                            <span class="part">
+                                <span class="icon"><i class="fa-solid fa-clock"></i></span> 7 Day / 6 Night
+                            </span>
+                            <span class="part">
+                                <span class="icon"><i class="fa-solid fa-user-group"></i></span> Max : 10
+                            </span>
+                            <span class="part">
+                                <span class="icon"><i class="fa-solid fa-location-dot"></i></span> Malaysia
+                            </span>
+                        </p>
+                        <h3>Tour To Satorini</h3>
+                        <p class="p">Indulge in a captivating Tour to Santorini. Immerse in azure waters, stunning sunsets, and ancient charm. Unforgettable memories await your exploration.</p>
+                        <h4>Price: $1300-$1500</h4>
+                        <button class="btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="deal-discount-card offer-card2">
+                    <div class="offer-card">
+                        <p class="span-part">
+                            <span class="part">
+                                <span class="icon"><i class="fa-solid fa-clock"></i></span> 7 Day / 6 Night
+                            </span>
+                            <span class="part">
+                                <span class="icon"><i class="fa-solid fa-user-group"></i></span> Max : 10
+                            </span>
+                            <span class="part">
+                                <span class="icon"><i class="fa-solid fa-location-dot"></i></span> Malaysia
+                            </span>
+                        </p>
+                        <h3>Tour To Satorini</h3>
+                        <p class="p">Indulge in a captivating Tour to Santorini. Immerse in azure waters, stunning sunsets, and ancient charm. Unforgettable memories await your exploration.</p>
+                        <h4>Price: $1300-$1500</h4>
+                        <button class="btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="deal-discount-card offer-card1">
+                    <div class="offer-card">
+                        <p class="span-part">
+                            <span class="part">
+                                <span class="icon"><i class="fa-solid fa-clock"></i></span> 7 Day / 6 Night
+                            </span>
+                            <span class="part">
+                                <span class="icon"><i class="fa-solid fa-user-group"></i></span> Max : 10
+                            </span>
+                            <span class="part">
+                                <span class="icon"><i class="fa-solid fa-location-dot"></i></span> Malaysia
+                            </span>
+                        </p>
+                        <h3>Tour To Satorini</h3>
+                        <p class="p">Indulge in a captivating Tour to Santorini. Immerse in azure waters, stunning sunsets, and ancient charm. Unforgettable memories await your exploration.</p>
+                        <h4>Price: $1300-$1500</h4>
+                        <button class="btn">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- deal and discount section end -->
+
+        <!-- simple place section start -->
+        <section id="simple-place">
+            <div class="simple-place-container">
+                <h1>A Simple Perfect Place <br>To Get Lost</h1>
+                <p>Discover a haven of serenity—'A Simple Perfect Place To Get Lost.' Embrace tranquility, nature's beauty, and spontaneous adventures. Escape today.</p>
+                <ul>
+                    <li>Unwind in a sanctuary of simplicity at A Simple Perfect Place To Get Lost. Immerse yourself in nature's charm and embrace spontaneous moments of discovery.</li>
+                    <li>Embark on a journey to serenity at A Simple Perfect Place To Get Lost. Where simplicity meets perfection, inviting you to unwind and explore the beauty of the unexplored.</li>
+                </ul>
+                <button class="btn">See More</button>
+            </div>
+            <div class="simple-place-video">
+                <iframe src="https://www.youtube.com/embed/Cn4G2lZ_g2I?si=j3fcZH_mwrt-6EP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <!-- simple place section end -->
+
+        <!-- travelers review section start -->
+
+        <section id="travelers-review">
+            <div class="review-content">
+                <h1>Travelers Review</h1>
+                <p>Dive into genuine experiences through our Travelers' Reviews. Explore authentic stories, insights, and <br>recommendations shared by fellow adventurers worldwide.</p>
+            </div>
+            <div class="review-container">
+                <div class="review">
+                    <img src="images/icons8-man-70.png">
+                    <h4>Name: Herry</p>
+                    <h4>Visited Country: Bangladesh</h4>
+                    <h4>Rating: <span class="star-span">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span></h4>
+                    <h5>Comment:</h5>
+                    <p>Exceptional service! Our journey was seamless, and your attention to detail exceeded our expectations. Grateful travelers.</p>
+                </div>
+                <div class="review">
+                    <img src="images/icons8-man-70 (1).png">
+                    <h4>Name: Petter</p>
+                    <h4>Visited Country: Srilanka</h4>
+                    <h4>Rating: <span class="star-span">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span></h4>
+                    <h5>Comment:</h5>
+                    <p>Exceptional service! Our journey was seamless, and your attention to detail exceeded our expectations. Grateful travelers.</p>
+                </div>
+                <div class="review">
+                    <img src="images/icons8-woman-70 (1).png">
+                    <h4>Name: Hena</p>
+                    <h4>Visited Country: Maldives</h4>
+                    <h4>Rating: <span class="star-span">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span></h4>
+                    <h5>Comment:</h5>
+                    <p>Exceptional service! Our journey was seamless, and your attention to detail exceeded our expectations. Grateful travelers.</p>
+                </div>
+                <div class="review">
+                    <img src="images/icons8-woman-70.png">
+                    <h4>Name: Mary</p>
+                    <h4>Visited Country: Indonesia</h4>
+                    <h4>Rating: <span class="star-span">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span></h4>
+                    <h5>Comment:</h5>
+                    <p>Exceptional service! Our journey was seamless, and your attention to detail exceeded our expectations. Grateful travelers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- travelers review section end -->
+
+        <!-- newsletter section start -->
+        <section id="newsletter">
+            <div class="newsletter-form">
+                <h3>Newsletter</h3>
+                <p>Get your daily dose of travel news & tips. Sign <br>up today!</p>
+                <hr>
+                <form>
+                    <input type="text" placeholder="Enter your name">
+                    <input type="email" placeholder="Enter your email">
+                    <button class="btn">Subscribe</button>
+                </form>
+            </div>
+            <div class="newsletter-img">
+                <img src="images/Rectangle 8 (1).png">
+                <div class="newsletter-img-text">
+                    <h4>Tourpartner.com</h4>
+                    <h2>Save up to 70%</h2>
+                </div>
+            </div>
+        </section>
+        <!-- newsletter section end -->
+
+
+
     </main>
 
-   <footer class="section">
-    <h1 style="text-align: center;">Why Choose Us</h1>
-    <p style="text-align: center;">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-    <div class="footer-icon">
-      <i class="fa-solid-fa-hotel"></i>
-      <h2>Handpicked Hotels</h2>
-      <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
-    </div>
+    <!-- main section end -->
 
-    <div>
-       <div class="nav-container2">
-        <img src="./Images/Group 40071 (2).png" alt="">
-        <p> <span class="special">Hero</span> <span class="special2">Trave</span></p>
-        
-       </div>
-    </div>
-   </footer>
+    <!-- footer section start -->
 
+    <footer>
 
+        <div class="container footer">
+            <div class="footer-logo">
+                <img src="images/Group 40071 (2).png">
+                <h3>Tour <span class="partner-span">Partner</span></h3>
+            </div>
+            <p>Elevate your travel experience with Tour <span class="footer-span">Partner</span>. Expertly crafted journeys, exceptional service, and <br>unforgettable moments. Let us guide you to extraordinary destinations worldwide.</p>
+            <div class="footer-social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+            <hr>
+            <small>2024, All Rights Reserved.</small>
+        </div>
+
+    </footer>
+
+    <!-- footer section end -->
+
+    
+    
 </body>
 </html>
